@@ -1,0 +1,9 @@
+for row =1:9
+    for col=1:9
+        if matrix(row,col)==0
+            row_sum=sum(matrix(row,:))
+            col_sum=sum(matrix(:,col))
+            block_sum
+        end
+    end
+end
